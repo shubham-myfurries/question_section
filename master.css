@@ -1,0 +1,38 @@
+body{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+::selection{
+  background-color: yellow;
+}
+
+.section1{
+  background: url('bg.png');
+  background-size: cover;
+  height: 85ch;
+  width: auto;
+}
+
+.section1 h2{
+  font-size: 5ch;
+  letter-spacing: 8px;
+}
+
+.section1 p{
+  letter-spacing: 1.2px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+}
+
+.section1 textarea{
+  background-color: #e8f0f4;
+  border-radius: 20px;
+}
+
+.my-box{
+  margin-top: 8vw;
+  margin-left: 10vw;
+  padding: 4vw;
+
+}
